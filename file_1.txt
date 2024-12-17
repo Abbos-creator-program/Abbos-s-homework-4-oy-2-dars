@@ -1,1 +1,1 @@
-Commit 6 in branch_1
+Commit 7 in branch_1
