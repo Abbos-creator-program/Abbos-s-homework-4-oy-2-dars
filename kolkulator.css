@@ -1,0 +1,52 @@
+/* (.) classni chaqiradi */
+.colculator{
+    width: 220px;
+    margin: 100px auto;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+/* (#) divni chaqiradi */
+#result {
+    width: 70%;
+    height: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-left: 44px;
+    font-size: 20px; /*font-size CSS xususiyati matnning o'lchamini belgilash uchun ishlatiladi */
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: white;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 5px;
+    cursor: pointer;
+    margin-left: 45px;
+}
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+button:hover {
+    background-color: red;
+}
+.container {
+    margin: 100px auto;
+    width: 300px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+body { 
+   background-color: aqua;
+}
+
+
+
